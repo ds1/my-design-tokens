@@ -1,17 +1,17 @@
 {
   "colors": {
     "primary": {
-      "$value": "#333333",
+      "$value": "#000000",
       "$type": "color",
       "$description": "Primary brand color"
     },
     "secondary": {
-      "$value": "#6b7280",
+      "$value": "#364157",
       "$type": "color"
     },
     "background": {
       "default": {
-        "$value": "#000000",
+        "$value": "#dadada",
         "$type": "color"
       },
       "subtle": {
@@ -30,15 +30,15 @@
       }
     },
     "success": {
-      "$value": "#10b981",
+      "$value": "#0f4c38",
       "$type": "color"
     },
     "warning": {
-      "$value": "#f59e0b",
+      "$value": "#755929",
       "$type": "color"
     },
     "error": {
-      "$value": "#ef4444",
+      "$value": "#611a1a",
       "$type": "color"
     }
   },
