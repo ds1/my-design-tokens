@@ -1,5 +1,4 @@
 {
-  "$description": "Sample design tokens file for GitFig. Supports W3C Design Tokens format.",
   "colors": {
     "primary": {
       "$value": "#333333",
@@ -7,16 +6,16 @@
       "$description": "Primary brand color"
     },
     "secondary": {
-      "$value": "#6B7280",
+      "$value": "#6b7280",
       "$type": "color"
     },
     "background": {
       "default": {
-        "$value": "#FFFFFF",
+        "$value": "#000000",
         "$type": "color"
       },
       "subtle": {
-        "$value": "#F9FAFB",
+        "$value": "#f9fafb",
         "$type": "color"
       }
     },
@@ -26,20 +25,20 @@
         "$type": "color"
       },
       "secondary": {
-        "$value": "#6B7280",
+        "$value": "#6b7280",
         "$type": "color"
       }
     },
     "success": {
-      "$value": "#10B981",
+      "$value": "#10b981",
       "$type": "color"
     },
     "warning": {
-      "$value": "#F59E0B",
+      "$value": "#f59e0b",
       "$type": "color"
     },
     "error": {
-      "$value": "#EF4444",
+      "$value": "#ef4444",
       "$type": "color"
     }
   },
@@ -84,4 +83,3 @@
     }
   }
 }
-
