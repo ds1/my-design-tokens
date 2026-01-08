@@ -1,89 +1,34 @@
 {
-  "colors": {
-    "primary": {
-      "$value": "#333333",
-      "$type": "color",
-      "$description": "Primary brand color"
-    },
-    "secondary": {
-      "$value": "#6b7280",
-      "$type": "color"
-    },
-    "background": {
-      "default": {
-        "$value": "#000000",
-        "$type": "color"
+  "system-of-units-of-measurement": {
+    "systems": {
+      "international-system-of-units": {
+        "$value": 0,
+        "$type": "number"
       },
-      "subtle": {
-        "$value": "#f9fafb",
-        "$type": "color"
+      "us-customary-units": {
+        "$value": 1,
+        "$type": "number"
       }
     },
-    "text": {
-      "primary": {
-        "$value": "#111827",
-        "$type": "color"
+    "length": {
+      "units": {
+        "twip": {
+          "$value": "String value",
+          "$type": "string"
+        },
+        "international-units": {
+          "$value": "String value",
+          "$type": "string"
+        }
       },
-      "secondary": {
-        "$value": "#6b7280",
-        "$type": "color"
+      "inch": {
+        "$value": 72,
+        "$type": "number"
+      },
+      "foot": {
+        "$value": 72,
+        "$type": "number"
       }
-    },
-    "success": {
-      "$value": "#10b981",
-      "$type": "color"
-    },
-    "warning": {
-      "$value": "#f59e0b",
-      "$type": "color"
-    },
-    "error": {
-      "$value": "#ef4444",
-      "$type": "color"
     }
-  },
-  "spacing": {
-    "xs": {
-      "$value": 4,
-      "$type": "number"
-    },
-    "sm": {
-      "$value": 8,
-      "$type": "number"
-    },
-    "md": {
-      "$value": 16,
-      "$type": "number"
-    },
-    "lg": {
-      "$value": 24,
-      "$type": "number"
-    },
-    "xl": {
-      "$value": 32,
-      "$type": "number"
-    }
-  },
-  "borderRadius": {
-    "sm": {
-      "$value": 4,
-      "$type": "number"
-    },
-    "md": {
-      "$value": 8,
-      "$type": "number"
-    },
-    "lg": {
-      "$value": 12,
-      "$type": "number"
-    },
-    "full": {
-      "$value": 9999,
-      "$type": "number"
-    }
-  },
-  "isHidden": {
-    "$value": true,
-    "$type": "boolean"
   }
 }
