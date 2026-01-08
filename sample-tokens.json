@@ -81,5 +81,9 @@
       "$value": 9999,
       "$type": "number"
     }
+  },
+  "isHidden": {
+    "$value": true,
+    "$type": "boolean"
   }
 }
